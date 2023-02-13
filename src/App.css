@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#navbar {
+  border: 1px solid rgb(165, 165, 245);
+  background-color: black;
+  font-family: 'Yeon Sung';
+  height: 8vh;
+  width: 97.7vw;
+  padding: .3rem;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  font-size: 3vw;
+}
+#logo a{
+  text-decoration: none;
+  color: white;
+}
+
+div #logo img{
+  height: 8vh;
+  width: 4vw;
+  filter: invert(1);
+}
+#navbar li {
+  list-style: none;
+  text-align: center;
+}
+
+#navbar li a {
+  color: rgb(248, 39, 213);
+  text-decoration: none;
+  margin: .8rem;
+  font-size: 1.5vw;
+}
+
+#navbar li a:hover {
+  color: white;
+}
+
+#introSection {
+  color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'ZCOOL QingKe HuangYou';
+  font-size: 5vw;
+  align-items: center;
+  height: 53vh;
+  text-decoration: overline;
+}
+
+#introSection ::before {
+  content: '';
+  position: absolute;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(./comp/img/homebg.jpg);
+  background-size: cover;
+  /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 63vh;
+
+
+}
+
+.small {
+  font-size: 45px;
+  padding: 5px;
+  color: rgb(230, 30, 30);
+  font-family: fantasy;
+}
+
+#missionSection {
+  height: 326px;
+  width: 97.45%;
+  margin: auto;
+  border: 16px;
+  border-color: #575757;
+  border-style: outset;
+}
+
+#missionSection h2 {
+  background-color: #f3f3f4;
+  font-size: 36px;
+  font-family: 'Yeon Sung';
+  text-align: center;
+  padding-top: 12px;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 46%;
+  margin: 23px 20px;
+  height: 214px;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 0 12px;
+  margin-top: 24px;
+  font-family: cursive;
+}
+
+.paths{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.8rem;
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  padding-left: 0;
+
+}
+
+.card-img {
+  height: 131px;
+  margin-right: 10px;
+}
+
+.card-img img {
+  height: inherit;
+}
+
+#box {
+  background-color: #f5f4f4;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#sponsorsSection {
+  padding: 30px;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+#sponsorsSection h2 {
+  font-size: xx-large;
+  color: rgb(5, 5, 5);
+}
+
+.splogo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.spImage {
+  height: 80px;
+  margin: 20px;
+}
+
+#footer {
+  color: aliceblue;
+  background-color: black;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(165, 165, 245);
+}
+#exception{
+  background-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#head {
+  text-align: center;
+  background-color: cyan;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.input {
+  background-color: rgb(248, 248, 196);
+  width: 600px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid rgb(253, 252, 255);
+  border-radius: 10px;
+}
+
+.myForm {
+  height: 79vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  outline: none;
+}
+.btn {
+  margin: 0.5rem;
+  padding: 5px;
+  border: 2px solid blue;
+  border-radius: 1rem;
+  background-color: black;
+  color: aliceblue;
+}
+.btn:hover {
+  cursor: pointer;
+  color: rgb(249, 255, 68);
+  border: 2px solid blue;
+  box-shadow: 0px 3px 8px 1px cyan;
+}
+#footer{
+  border: 1px solid rgb(165, 165, 245);
+}
+#classinfobox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+
+#chead {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+#male {
+  background-color: black;
+  height: 70vh;
+  width: 35vw;
+  padding: 40px;
+  color: #fcfcfc;
+}
+
+.malep p {
+  padding-top: 50px;
+}
+
+.femalep p {
+  padding-top: 50px;
+}
+
+#female {
+  background-color: black;
+  color: #fcfcfc;
+  height: 70vh;
+  width: 35vw;
+  padding: 40px;
+
+}
+
+.maleimg img {
+  height: 50vh;
+  width: 25vw;
+
+}
+
+.femaleimg img {
+  height: 50vh;
+  width: 25vw;
+}
+
+.classcont {
+  height: 766px;
+  width: 100%;
+  background-image: url(./comp/img/classinfobg.jpg);
+  background-size: cover;
+  /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+#infobox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 83.3vh;
+  width: 97.45%;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+/* to add opacity background img */
+#infobox ::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url(./comp/img/aboutbg.jpg) no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#infobox h1 {
+  font-family: cursive;
+  margin: 10px;
+  text-align: center;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#infobox p {
+  padding: 30px;
+  border: 2px solid red;
+  color: #f9e960;
+  font-family: monospace;
+
+}
